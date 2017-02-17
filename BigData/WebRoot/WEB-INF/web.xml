@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<servlet>
+	<servlet-name>ShowAllCustomer</servlet-name>
+	<servlet-class>cn.kevin.controller.ShowAllCustomer</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>AddCustomer</servlet-name>
+	<servlet-class>cn.kevin.controller.AddCustomer</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>UpdateCustomerUI</servlet-name>
+	<servlet-class>cn.kevin.controller.UpdateCustomerUI</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>UpdateCustomer</servlet-name>
+	<servlet-class>cn.kevin.controller.UpdateCustomer</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>DeleteOneCustomer</servlet-name>
+	<servlet-class>cn.kevin.controller.DeleteOneCustomer</servlet-class>
+	</servlet>
+	<servlet>
+	<servlet-name>DelMultiCustomer</servlet-name>
+	<servlet-class>cn.kevin.controller.DelMultiCustomer</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>ShowAllCustomer</servlet-name>
+	<url-pattern>/servlet/showallcustomer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>AddCustomer</servlet-name>
+	<url-pattern>/servlet/addcustomer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>UpdateCustomerUI</servlet-name>
+	<url-pattern>/servlet/updatecustomerui</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>UpdateCustomer</servlet-name>
+	<url-pattern>/servlet/updatecustomer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>DeleteOneCustomer</servlet-name>
+	<url-pattern>/servlet/deleteonecustomer</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	<servlet-name>DelMultiCustomer</servlet-name>
+	<url-pattern>/servlet/DelMultiCustomer</url-pattern>
+	</servlet-mapping>
+</web-app>	
+	
